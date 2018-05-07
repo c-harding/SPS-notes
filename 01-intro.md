@@ -1,10 +1,10 @@
 # Symbols, Patterns and Signals
 
-## Introduction
+## 1. Introduction
 
 This unit is about using data: generating and interpreting data, and making decisions based on it. What is data? Text, images, video, DNA sequences, emails, web pages, speech, audio, GPS signals, etc.
 
-When comparing different methods, it's important to consider **what** we need to do (methods), **when** it works (applicability), and **how well** it works (performance). It's also important to remember to consider why we use it.
+When comparing different methods, it’s important to consider **what** we need to do (methods), **when** it works (applicability), and **how well** it works (performance). It’s also important to remember to consider why we use it.
 
 ### Why is this important? Why do we learn it?
 
@@ -53,7 +53,7 @@ And lots of money in data science 😜
 
 **Aim**: identify the regions of different objects in the image
 
-Simplest approach: assume each object is a region of pixels with a similar colour. However, this doesn't always work:
+Simplest approach: assume each object is a region of pixels with a similar colour. However, this doesn’t always work:
 
 ![Bad segmentation](01-fish-region.png)
 
@@ -63,7 +63,7 @@ Simplest approach: assume each object is a region of pixels with a similar colou
 
 **Aim**: convert samples into text
 
-Split the sound into phonemes, but then we need to parse the phonemes. This doesn't work with a simple dictionary, as phonemes don't always have the same acoustic vectors. But if we use *training data*, we can find the most likely vector for a given phoneme, and then the most likely phonemes to follow a given phoneme.
+Split the sound into phonemes, but then we need to parse the phonemes. This doesn’t work with a simple dictionary, as phonemes don’t always have the same acoustic vectors. But if we use *training data*, we can find the most likely vector for a given phoneme, and then the most likely phonemes to follow a given phoneme.
 
 Therefore we can find the most likely sequence of phonemes given a sequence of acoustic vectors. This is done using Hidden Markov Model and the Viterbi algorithm.
 
@@ -71,7 +71,7 @@ Therefore we can find the most likely sequence of phonemes given a sequence of a
 
 **Data**: email
 
-**Aim**: determine if it's spam
+**Aim**: determine if it’s spam
 
 Compare relative frequencies of words.
 
