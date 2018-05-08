@@ -55,7 +55,7 @@ And lots of money in data science 😜
 
 Simplest approach: assume each object is a region of pixels with a similar colour. However, this doesn’t always work:
 
-![Bad segmentation](01-fish-region.png)
+![Bad segmentation](A01-fish-region.png)
 
 ### Speech recognition
 
