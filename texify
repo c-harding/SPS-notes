@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+for f in *.tex.md;do python3 -m readme2tex --nocdn --output `(echo $f | sed 's/tex\.md/md/')` --project SPS-notes --svgdir tex --username xsanda $f; done
