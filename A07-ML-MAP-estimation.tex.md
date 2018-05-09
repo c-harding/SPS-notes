@@ -1,4 +1,3 @@
-
 # Symbols, Patterns and Signals
 
 ## A7. Maximum Likelihood and Maximum a Posteriori estimation

@@ -1,4 +1,3 @@
-
 # Symbols, Patterns and Signals
 
 ## B1. Classification

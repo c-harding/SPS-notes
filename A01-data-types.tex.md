@@ -1,5 +1,3 @@
-
-
 # Symbols, Patterns and Signals
 
 ## A1. Data types
