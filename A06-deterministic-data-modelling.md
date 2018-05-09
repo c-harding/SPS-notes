@@ -14,7 +14,7 @@ The simplest models are deterministic: they assume that relationships are fixed,
 
 ### Least Squares method
 
-E.g. hypothesis that <img src="tex/78b7aee2e8a0fb2ee9a011438f683a1f.svg?invert_in_darkmode&sanitize=true" align=middle width=169.230105pt height=22.831379999999992pt/>, so we find the best values of <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode" align=middle width=8.689230000000004pt height=14.155350000000013pt/> and <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode" align=middle width=7.054855500000005pt height=22.831379999999992pt/>: minimise the sum of the squares of the vertical offsets (the residual). The smaller the residual, the better the model.This is known as the least squares method.
+E.g. hypothesis that <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/6d1a2cf6918520e8b2a36406288faf7a.svg?invert_in_darkmode" align=middle width=173.79730500000002pt height=22.831379999999992pt/>, so we find the best values of <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/44bc9d542a92714cac84e01cbbb7fd61.svg?invert_in_darkmode" align=middle width=8.689230000000004pt height=14.155350000000013pt/> and <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/4bdc8d9bcfb35e1c9bfb51fc69687dfc.svg?invert_in_darkmode" align=middle width=7.054855500000005pt height=22.831379999999992pt/>: minimise the sum of the squares of the vertical offsets (the residual). The smaller the residual, the better the model.This is known as the least squares method.
 <p align="center"><img src="https://rawgit.com/xsanda/SPS-notes/master//tex/a18a10d700db0414de98e499e1f2e3b8.svg?invert_in_darkmode" align=middle width=210.55485pt height=36.655409999999996pt/></p>
 <p align="center"><img src="https://rawgit.com/xsanda/SPS-notes/master//tex/03a563134d6f952244b5829999833e3f.svg?invert_in_darkmode" align=middle width=486.90345pt height=41.931284999999995pt/></p>
 
@@ -35,7 +35,7 @@ Need to find <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/540d97bf8
 
 ### Polynomial generalisation
 
-What about if we don't believe we have a linear relationship, but rather something else, like a polynomial?
+What about if we don't believe we have a linear relationship, but rather something else, like polynomial or sinusoidal?
 
 <p align="center"><img src="https://rawgit.com/xsanda/SPS-notes/master//tex/1df0bbe6513a77c07c13b61ef750e032.svg?invert_in_darkmode" align=middle width=258.63419999999996pt height=18.906029999999998pt/></p>
 
