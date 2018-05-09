@@ -10,4 +10,4 @@ A classifier is a program that performs supervised learning. Given
 - described by feature vectors, which can be numeric or symbolic,
 - and a small set of classes,
 
-a classifier tries to the d-dimensional instance space into regions of uniform class. In other words, it divides the input between distinct subsets, one for each class. 
+a classifier tries to divide the d-dimensional instance space into regions of uniform class. In other words, it divides the input between distinct subsets, one for each class. 
