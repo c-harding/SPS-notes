@@ -14,7 +14,7 @@ The simplest models are deterministic: they assume that relationships are fixed,
 
 ### Least Squares method
 
-E.g. hypothesis that $weight = a + b * length$, so we find the best values of $a$ and $b$: minimise the sum of the squares of the vertical offsets (the residual). The smaller the residual, the better the model.This is known as the least squares method.
+E.g. hypothesis that $weight = a + b \times length$, so we find the best values of $a$ and $b$: minimise the sum of the squares of the vertical offsets (the residual). The smaller the residual, the better the model.This is known as the least squares method.
 $$ R(a,b) = \sum_i (y_i - (a+bx_i))^2 $$
 $$ \frac{\partial R}{a} = -2\sum_i (y_i - (a+bx_i)) = 0 \\ \frac{\partial R}{b} = -2\sum_ix_i(y_i - (a+bx_i)) = 0 $$
 
@@ -38,7 +38,7 @@ $$\mathbf X^T\mathbf y = \mathbf X^T\mathbf X\mathbf a\\
 
 ### Polynomial generalisation
 
-What about if we don't believe we have a linear relationship, but rather something else, like a polynomial?
+What about if we don't believe we have a linear relationship, but rather something else, like polynomial or sinusoidal?
 
 $$y_i=a_1 + a_2x + a_3x^2 + \cdots + a_px^{p-1}$$
 
