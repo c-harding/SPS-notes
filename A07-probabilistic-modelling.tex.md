@@ -36,14 +36,14 @@ For independent dimensions, $p(\mathbf x) = \prod_i p_i(x_i)$
 
 $$weight = a \times length + \varepsilon$$
 
-Assume that $\varepsilon \sim N\left(0,sigma^2\right)$. Use **Maximum Likelihood** estimation:
+Assume that $\varepsilon \sim N\left(0,\sigma^2\right)$. Use **Maximum Likelihood** estimation:
 
 $$D = \left\{\left(x_1,y_1\right),\left(x_2,y_2\right),\dots,\left(x_N,y_N\right)\right\}$$
 $$a_{ML} = \arg\max_ap(D\mid a)$$
 
 Assume that all the measurements are independent: $\displaystyle p(D\mid a) = \prod_{i=1}^Np(y_i\mid x_i,a)$.
 
-Since $\varepsilon \sim N\left(0,sigma^2\right)$ in $y=ax+\varepsilon$, we get $p(y_i\mid x_i,a)\sim N\left(ax_i,sigma^2\right)$.
+Since $\varepsilon \sim N\left(0,\sigma^2\right)$ in $y=ax+\varepsilon$, we get $p(y_i\mid x_i,a)\sim N\left(ax_i,\sigma^2\right)$.
 
 $$a_{ML} = \arg\max_a p(D\mid a) = \frac{1}{\sigma\sqrt{2\pi}}\exp\frac{-(y_i-ax_i)^2}{2\sigma^2}$$
 $$a_{ML}=\arg\max_a\sum_i\left(\ln\frac1{\sigma\sqrt{2\pi}}-\frac{(y_i-ax_i)^2}{2\sigma^2}\right)$$
