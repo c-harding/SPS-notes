@@ -1,6 +1,6 @@
 # Symbols, Patterns and Signals
 
-## 8. Maximum Likelihood and Maximum a Posteriori estimation
+## A7. Maximum Likelihood and Maximum a Posteriori estimation
 
 Maximum likelihood instructions:
 

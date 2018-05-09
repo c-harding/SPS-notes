@@ -1,6 +1,6 @@
 # Symbols, Patterns and Signals
 
-## 2. Data types
+## A1. Data types
 
 There are four main categories of data: numeric and symbolic sequences and lists. Symbolic means there’s no inherit order to the units, whereas numeric data units can be compared and manipulated arithmetically. Sequences are ordered collections of data units, whereas lists are unordered collections.
 

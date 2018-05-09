@@ -1,6 +1,6 @@
 # Symbols, Patterns and Signals
 
-## 4. Distance
+## A3. Distance
 
 Distance is a measure of separation between data. It can be defined for inividual data units, or for sequences/lists. It is important, as it allows for data to be ordered, and so allows numeric calculations.
 

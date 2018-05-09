@@ -1,6 +1,6 @@
 # Symbols, Patterns and Signals
 
-## 7. Probabilistic Data Modelling
+## A6. Probabilistic Data Modelling
 
 With a deterministic model, we don’t model any uncertainties or ‘randomness’ in the data. In some applications this is not a problem, but in others, we can benefit from using a *probabilistic model*.
 

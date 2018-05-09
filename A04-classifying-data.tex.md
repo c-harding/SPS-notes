@@ -1,6 +1,6 @@
 # Symbols, Patterns and Signals
 
-## 5. Classifying Data
+## A4. Classifying Data
 
 For a set of scalar values, the simplest summaries are the mean and variance:
 

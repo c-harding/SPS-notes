@@ -1,6 +1,6 @@
 # Symbols, Patterns and Signals
 
-## 3. Data acquisition
+## A2. Data acquisition
 
 We get data from the real world using an *acquisition process*. Sometimes this is straight-forward data collection (questionaires, surveys, measurements, etc.). At other times, we need more complex application-specific processes, e.g. DNA sequencing. Most of this is out of the remit of this unit, with the exception of acquisition of signals: speech, audio, video.
 

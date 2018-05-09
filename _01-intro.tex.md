@@ -1,6 +1,6 @@
 # Symbols, Patterns and Signals
 
-## 1. Introduction
+## Introduction
 
 This unit is about using data: generating and interpreting data, and making decisions based on it. What is data? Text, images, video, DNA sequences, emails, web pages, speech, audio, GPS signals, etc.
 
@@ -55,7 +55,7 @@ And lots of money in data science 😜
 
 Simplest approach: assume each object is a region of pixels with a similar colour. However, this doesn’t always work:
 
-![Bad segmentation](A01-fish-region.png)
+![Bad segmentation](_01-fish-region.png)
 
 ### Speech recognition
 
