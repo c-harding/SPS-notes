@@ -36,14 +36,14 @@ For independent dimensions, <img src="https://rawgit.com/xsanda/SPS-notes/master
 
 <p align="center"><img src="https://rawgit.com/xsanda/SPS-notes/master//tex/2b901397a6e8e33087d5878b8834fc4b.svg?invert_in_darkmode" align=middle width=174.40664999999998pt height=14.611871999999998pt/></p>
 
-Assume that <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/aad816602888e0bdf67b1bf15016727e.svg?invert_in_darkmode" align=middle width=130.21222500000002pt height=27.94572000000001pt/>. Use **Maximum Likelihood** estimation:
+Assume that <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/3454df22382541cf6ff82f66ff974486.svg?invert_in_darkmode" align=middle width=95.273805pt height=27.94572000000001pt/>. Use **Maximum Likelihood** estimation:
 
 <p align="center"><img src="https://rawgit.com/xsanda/SPS-notes/master//tex/9089f0d09d53eb4efb42e99137b7f64f.svg?invert_in_darkmode" align=middle width=268.80809999999997pt height=16.438356pt/></p>
 <p align="center"><img src="https://rawgit.com/xsanda/SPS-notes/master//tex/354e0d230f3b43d9b6d9c06bf5c4bdd2.svg?invert_in_darkmode" align=middle width=170.9037pt height=22.19184pt/></p>
 
 Assume that all the measurements are independent: <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/e162625f55a30198f65e22edd597908f.svg?invert_in_darkmode" align=middle width=182.611605pt height=56.82203999999998pt/>.
 
-Since <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/aad816602888e0bdf67b1bf15016727e.svg?invert_in_darkmode" align=middle width=130.21222500000002pt height=27.94572000000001pt/> in <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/2a063846d27e5a2005b4a988e6f83357.svg?invert_in_darkmode" align=middle width=76.407705pt height=19.178279999999994pt/>, we get <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/37483c5c0dbd2733fcdb27a68584abc7.svg?invert_in_darkmode" align=middle width=217.03390499999998pt height=27.94572000000001pt/>.
+Since <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/3454df22382541cf6ff82f66ff974486.svg?invert_in_darkmode" align=middle width=95.273805pt height=27.94572000000001pt/> in <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/2a063846d27e5a2005b4a988e6f83357.svg?invert_in_darkmode" align=middle width=76.407705pt height=19.178279999999994pt/>, we get <img src="https://rawgit.com/xsanda/SPS-notes/master//tex/9b69b50c35ce9d5fc911459cef00022f.svg?invert_in_darkmode" align=middle width=182.095155pt height=27.94572000000001pt/>.
 
 <p align="center"><img src="https://rawgit.com/xsanda/SPS-notes/master//tex/282e06b7d769ac49b38ed60c8ef27bf4.svg?invert_in_darkmode" align=middle width=361.3203pt height=39.789089999999995pt/></p>
 <p align="center"><img src="https://rawgit.com/xsanda/SPS-notes/master//tex/068fc0653a43340fb868b78b076af64e.svg?invert_in_darkmode" align=middle width=327.69989999999996pt height=43.8966pt/></p>

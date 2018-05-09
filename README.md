@@ -15,6 +15,7 @@ These are my notes from the 2018 Symbols, Patterns and Signals course at the Uni
 1. [Classifying data](A05-classifying-data.md)
 1. [Deterministic data modelling](A06-deterministic-data-modelling.md)
 1. [Probabilistic data modelling](A07-probabilistic-modelling.md)
+1. [Maximum Likelihood and Maximum a Posteriori estimation](A08-ML-MAP-estimation.md)
 
 ### Part B
 
