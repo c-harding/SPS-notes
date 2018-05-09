@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-for f in *.tex.md;do python3 -m readme2tex --nocdn --output `(echo $f | sed 's/tex\.md/md/')` --project SPS-notes --svgdir tex --username xsanda $f; done
+for f in *.tex.md;do
+    out=`(echo $f | sed 's/tex\.md/md/')`
+    python3 -m readme2tex --nocdn --output $out --project SPS-notes --svgdir tex --username xsanda $f
+    sed -E -i.bak 's/(\.svg\?invert_in_darkmode)\"/\1\&sanitize=true"/g' $out && rm "$out.bak"
+done
