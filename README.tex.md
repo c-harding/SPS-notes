@@ -1,3 +1,4 @@
+
 # Symbols, Patterns and Signals
 
 ## Course Notes, Charlie Harding, 2018

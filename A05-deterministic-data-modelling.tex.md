@@ -1,3 +1,4 @@
+
 # Symbols, Patterns and Signals
 
 ## A5. Deterministic Data Modelling
