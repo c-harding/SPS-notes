@@ -1,4 +1,3 @@
-
 # Symbols, Patterns and Signals
 
 ## A3. Distance
