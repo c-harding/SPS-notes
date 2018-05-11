@@ -22,3 +22,4 @@ These are my notes from the 2018 Symbols, Patterns and Signals course at the Uni
 
 1. [Classification](B01-classification.md)
 1. [Decision Trees](B02-decision-trees.md)
+1. [Nearest Neighbour](B03-nearest-neighbour.md)

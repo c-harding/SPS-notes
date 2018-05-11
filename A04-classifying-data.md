@@ -1,4 +1,3 @@
-
 # Symbols, Patterns and Signals
 
 ## A4. Classifying Data

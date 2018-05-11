@@ -17,7 +17,7 @@ For a distance measure $D(a,b)$ to be valid, it must have the following properti
 
 The typical distance measure used for numeric data is Euclidean distance (straight-line distance): $$D(\mathbf{u},\mathbf{v}) = (\mathbf{u}-\mathbf{v})^T(\mathbf{u}-\mathbf{v}) = \left(\sum_i(u_i-v_i)^2\right)^{^1/_2}$$
 
-This can be extended to P-norm distances: $$L_p(\mathbf{u},\mathbf{v}) = \left(\sum_i(u_i-v_i)^p\right)^{^1/_p}$$
+This can be extended to $L_k$ norm/Minkowski distances: $$L_p(\mathbf{u},\mathbf{v}) = \left(\sum_i(u_i-v_i)^p\right)^{^1/_p}$$
 
 Special cases of this include $p=1$ (Manhattan distance: sum of differences), $p=2$ (Euclidean distance, as above), $p=\infty$ (max-norm: maximum difference)
 
@@ -25,7 +25,9 @@ Special cases of this include $p=1$ (Manhattan distance: sum of differences), $p
 
 Sometimes we want to weight the different dimensions differently. If we have a vector $w$ of weights, the distance can be calculated with $$D_w(\mathbf{u},\mathbf{v}) =(\mathbf{u}-\mathbf{v})^T\mathbf{W}(\mathbf{u}-\mathbf{v}) = \left(\sum_i w_i(u_i-v_i)^2\right)^{^1/_2}$$
 
-The matrix form $\mathbf{W}$ is a diagonal form of the vector $w$.
+The matrix form $\mathbf{W}$ is a diagonal form of the vector $w$. For example, $w$ may be $\left[\sigma_1^{-2},\sigma_2^{-2},\dots,\sigma_d^{-2}\right]$, so that each dimension has unit invariance. 
+
+Alternatively, to eliminate correlations between features, we can set $W$ to the inverse of the covariance matrix. This is known as the **Mahalanobis distance**.
 
 ### Symbolic distances
 

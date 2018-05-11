@@ -1,4 +1,3 @@
-
 # Symbols, Patterns and Signals
 
 ## A6. Probabilistic Data Modelling

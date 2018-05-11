@@ -1,11 +1,10 @@
-
 # Symbols, Patterns and Signals
 
 ## A7. Maximum Likelihood and Maximum a Posteriori estimation
 
 Maximum likelihood instructions:
 
-1. Determine <img src="tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.173588500000005pt height=22.831379999999992pt/>, <img src="tex/78ec2b7008296ce0561cf83393cb746d.svg?invert_in_darkmode&sanitize=true" align=middle width=14.066250000000002pt height=22.46574pt/> and an expression for likelihood <img src="tex/be133e90bb7dc225c29fd23c55145668.svg?invert_in_darkmode&sanitize=true" align=middle width=56.9943pt height=24.65759999999998pt/>
+1. Determine <img src="tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.173588500000005pt height=22.831379999999992pt/>, <img src="tex/78ec2b7008296ce0561cf83393cb746d.svg?invert_in_darkmode&sanitize=true" align=middle width=14.06623184999999pt height=22.465723500000017pt/> and an expression for likelihood <img src="tex/be133e90bb7dc225c29fd23c55145668.svg?invert_in_darkmode&sanitize=true" align=middle width=56.9943pt height=24.65759999999998pt/>
 2. Take the natural log of the likelihood
    $$\arg\max_\theta p(D\mid\theta) = \arg\max_\theta\ln p(D\mid\theta)$$
    $$\arg\max_\theta p(D\mid\theta) = \arg\min_\theta\left(-\ln p(D\mid\theta)\right)$$

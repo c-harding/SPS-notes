@@ -24,7 +24,7 @@ A decision boundary is a line separating points of different classes.
 
 ### Counting classifier
 
-The simplest classifier is one based solely on the means of each classifier, and works based on a single feature. Given two classes <img src="/tex/d7b3f21735902404cb0e0d7ba7d13d5f.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/> and <img src="/tex/e9a9c83358af33f100cf032f1fae035e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>, with means <img src="/tex/d4c22567d6bf353815350caad68420a0.svg?invert_in_darkmode&sanitize=true" align=middle width=16.45747124999999pt height=14.15524440000002pt/> and <img src="/tex/d9324c21b00105263d6f54123813d99c.svg?invert_in_darkmode&sanitize=true" align=middle width=16.45747124999999pt height=14.15524440000002pt/>, where <img src="/tex/25bb4756fb670549cb348f4fe296c6e5.svg?invert_in_darkmode&sanitize=true" align=middle width=55.654485149999985pt height=17.723762100000005pt/>, the decision boundary is <img src="/tex/6ef612fdb290c7ef7a1f14964f72cc5c.svg?invert_in_darkmode&sanitize=true" align=middle width=120.04331129999997pt height=24.65753399999998pt/>. If a value is less than the decision boundary, it is classed as <img src="/tex/d7b3f21735902404cb0e0d7ba7d13d5f.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>. Otherwise is it classed as <img src="/tex/e9a9c83358af33f100cf032f1fae035e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>.
+The simplest classifier is one based solely on the means of each classifier, and works based on a single feature. Given two classes <img src="tex/d7b3f21735902404cb0e0d7ba7d13d5f.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/> and <img src="tex/e9a9c83358af33f100cf032f1fae035e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>, with means <img src="tex/d4c22567d6bf353815350caad68420a0.svg?invert_in_darkmode&sanitize=true" align=middle width=16.45747124999999pt height=14.15524440000002pt/> and <img src="tex/d9324c21b00105263d6f54123813d99c.svg?invert_in_darkmode&sanitize=true" align=middle width=16.45747124999999pt height=14.15524440000002pt/>, where <img src="tex/25bb4756fb670549cb348f4fe296c6e5.svg?invert_in_darkmode&sanitize=true" align=middle width=55.654485149999985pt height=17.723762100000005pt/>, the decision boundary is <img src="tex/6ef612fdb290c7ef7a1f14964f72cc5c.svg?invert_in_darkmode&sanitize=true" align=middle width=120.04331129999997pt height=24.65753399999998pt/>. If a value is less than the decision boundary, it is classed as <img src="tex/d7b3f21735902404cb0e0d7ba7d13d5f.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>. Otherwise is it classed as <img src="tex/e9a9c83358af33f100cf032f1fae035e.svg?invert_in_darkmode&sanitize=true" align=middle width=16.78467779999999pt height=14.15524440000002pt/>.
 
 This is the best classifier, provided that…
 
@@ -32,7 +32,7 @@ This is the best classifier, provided that…
 - both classes have a normal distribution, and
 - both classes are equally likely to occur (uniform prior).
 
-The decision boundary is where the probabilities are equal: <img src="/tex/8461313dc729e7a1070a6953a1a22ddc.svg?invert_in_darkmode&sanitize=true" align=middle width=151.19832584999997pt height=24.65753399999998pt/>.
+The decision boundary is where the probabilities are equal: <img src="tex/8461313dc729e7a1070a6953a1a22ddc.svg?invert_in_darkmode&sanitize=true" align=middle width=151.19832584999997pt height=24.65753399999998pt/>.
 
 ### Creating a decision rule
 
@@ -49,32 +49,32 @@ The decision boundary is where the probabilities are equal: <img src="/tex/84613
 
 #### What about with more than one class?
 
-<p align="center"><img src="/tex/05b2ecf9974aefd5efadd7edc59e750d.svg?invert_in_darkmode&sanitize=true" align=middle width=109.98275475pt height=22.1917806pt/></p>
+<p align="center"><img src="tex/05b2ecf9974aefd5efadd7edc59e750d.svg?invert_in_darkmode&sanitize=true" align=middle width=109.98275475pt height=22.1917806pt/></p>
 
 #### What about with non-uniform priors (MAP)?
 
-<p align="center"><img src="/tex/cc8c805cebaffe8172cb342efcc9212d.svg?invert_in_darkmode&sanitize=true" align=middle width=165.17239199999997pt height=16.438356pt/></p>
+<p align="center"><img src="tex/cc8c805cebaffe8172cb342efcc9212d.svg?invert_in_darkmode&sanitize=true" align=middle width=165.17239199999997pt height=16.438356pt/></p>
 
 #### Why does this work?
 
-Bayes’ theorem: <img src="/tex/fe54f62437ed8a830512086daa3a23b5.svg?invert_in_darkmode&sanitize=true" align=middle width=168.45042554999998pt height=46.8988773pt/>, where
+Bayes’ theorem: <img src="tex/fe54f62437ed8a830512086daa3a23b5.svg?invert_in_darkmode&sanitize=true" align=middle width=168.45042554999998pt height=46.8988773pt/>, where
 
-- Posterior: <img src="/tex/e4ccbccbfa80384ddf1e5a8d79a9ce65.svg?invert_in_darkmode&sanitize=true" align=middle width=54.97131584999999pt height=24.65753399999998pt/>
-- Likelihood: <img src="/tex/9fc6ea2f638ad155847bad95a91f4da5.svg?invert_in_darkmode&sanitize=true" align=middle width=54.97131584999999pt height=24.65753399999998pt/>
-- Prior: <img src="/tex/bff8f90d708e2e66c7ec7f0ee2f8ccaf.svg?invert_in_darkmode&sanitize=true" align=middle width=31.87790594999999pt height=24.65753399999998pt/>
-- Evidence: <img src="/tex/c9ea84eb1460d2895e0cf5125bd7f7b5.svg?invert_in_darkmode&sanitize=true" align=middle width=30.450987599999987pt height=24.65753399999998pt/>
+- Posterior: <img src="tex/e4ccbccbfa80384ddf1e5a8d79a9ce65.svg?invert_in_darkmode&sanitize=true" align=middle width=54.97131584999999pt height=24.65753399999998pt/>
+- Likelihood: <img src="tex/9fc6ea2f638ad155847bad95a91f4da5.svg?invert_in_darkmode&sanitize=true" align=middle width=54.97131584999999pt height=24.65753399999998pt/>
+- Prior: <img src="tex/bff8f90d708e2e66c7ec7f0ee2f8ccaf.svg?invert_in_darkmode&sanitize=true" align=middle width=31.87790594999999pt height=24.65753399999998pt/>
+- Evidence: <img src="tex/c9ea84eb1460d2895e0cf5125bd7f7b5.svg?invert_in_darkmode&sanitize=true" align=middle width=30.450987599999987pt height=24.65753399999998pt/>
 
-Since the evidence is independent of <img src="/tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>, it can be safely ignored when finding the <img src="/tex/c2a1065518f3cfc6a486f07409a65c67.svg?invert_in_darkmode&sanitize=true" align=middle width=65.13254879999998pt height=14.15524440000002pt/>.
+Since the evidence is independent of <img src="tex/ae4fb5973f393577570881fc24fc2054.svg?invert_in_darkmode&sanitize=true" align=middle width=10.82192594999999pt height=14.15524440000002pt/>, it can be safely ignored when finding the <img src="tex/c2a1065518f3cfc6a486f07409a65c67.svg?invert_in_darkmode&sanitize=true" align=middle width=65.13254879999998pt height=14.15524440000002pt/>.
 
 #### What if we have multiple features?
 
 If they are independent, this is easy:
 
-<p align="center"><img src="/tex/bcbb2c2c9b0ce7b65ff12b7e14b1c72d.svg?invert_in_darkmode&sanitize=true" align=middle width=204.01142025pt height=49.315569599999996pt/></p>
+<p align="center"><img src="tex/bcbb2c2c9b0ce7b65ff12b7e14b1c72d.svg?invert_in_darkmode&sanitize=true" align=middle width=204.01142025pt height=49.315569599999996pt/></p>
 
 If they are dependent, we need to take into account the mean vectors and covariance matrices:
 
-<p align="center"><img src="/tex/23f93f55cda47a03ac082377e79b8dbd.svg?invert_in_darkmode&sanitize=true" align=middle width=149.34909165pt height=22.1917806pt/></p>
+<p align="center"><img src="tex/23f93f55cda47a03ac082377e79b8dbd.svg?invert_in_darkmode&sanitize=true" align=middle width=149.34909165pt height=22.1917806pt/></p>
 
 With non-equal covariance matrices, the decision boundaries will not be linear, and the decision regions may not even be contiguous.
 
@@ -82,14 +82,14 @@ With non-equal covariance matrices, the decision boundaries will not be linear, 
 
 The naïve Bayes classifier works on the assumption that the features are independent.
 
-<p align="center"><img src="/tex/21c879dc4b53d9fa955ad4b2a11fdc74.svg?invert_in_darkmode&sanitize=true" align=middle width=511.92729719999994pt height=49.315569599999996pt/></p>
+<p align="center"><img src="tex/21c879dc4b53d9fa955ad4b2a11fdc74.svg?invert_in_darkmode&sanitize=true" align=middle width=511.92729719999994pt height=49.315569599999996pt/></p>
 
 This works for symbolic features too, for example words in an email. Each word is modelled as a Bernoulli random variable, i.e. Boolean of whether it is present or not. The likelihoods are then found of appearing/not appearing in spam emails from a large test set.
 
-<p align="center"><img src="/tex/bac16588e914441d2eba33159826bd2c.svg?invert_in_darkmode&sanitize=true" align=middle width=252.27660645pt height=44.89738935pt/></p>
-<p align="center"><img src="/tex/f77c3ec427a893d24eb8098b652aa88b.svg?invert_in_darkmode&sanitize=true" align=middle width=274.1944887pt height=44.89738935pt/></p>
+<p align="center"><img src="tex/bac16588e914441d2eba33159826bd2c.svg?invert_in_darkmode&sanitize=true" align=middle width=252.27660645pt height=44.89738935pt/></p>
+<p align="center"><img src="tex/f77c3ec427a893d24eb8098b652aa88b.svg?invert_in_darkmode&sanitize=true" align=middle width=274.1944887pt height=44.89738935pt/></p>
 
-Then an email is classed as spam iff <p align="center"><img src="/tex/ad21beac322d14f42eaf7b1fa965d069.svg?invert_in_darkmode&sanitize=true" align=middle width=395.18548409999994pt height=16.438356pt/></p>
+Then an email is classed as spam iff <p align="center"><img src="tex/ad21beac322d14f42eaf7b1fa965d069.svg?invert_in_darkmode&sanitize=true" align=middle width=395.18548409999994pt height=16.438356pt/></p>
 
 For simplification, we assume that
 
