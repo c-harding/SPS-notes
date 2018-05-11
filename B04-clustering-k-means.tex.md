@@ -1,6 +1,6 @@
 # Symbols, Patterns and Signals
 
-## B4. Clustering: $k$-means
+## B4. Clustering: *k*-means
 
 Clustering involves segmenting the instance space into regions of similar objects. There is no supervision in the learning: the regions are not labelled. We can use a distance metric for clustering. If we have $k$ clusters, this is known as **$k$-means clustering**.
 
