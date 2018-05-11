@@ -17,7 +17,7 @@ While this gives the same solution as the deterministic approach, it tells us mo
 
 <p align="center"><img src="tex/df4505f463f76e1faf4308308c960456.svg?invert_in_darkmode&sanitize=true" align=middle width=174.64095pt height=29.589285pt/></p>
 
-The more recordings/the larger the values of <img src="tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.395100000000005pt height=14.155350000000013pt/>, the smaller the variance.
+The more recordings/the larger the values of <img src="tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>, the smaller the variance.
 
 ### Maximum a Posteriori estimation
 
