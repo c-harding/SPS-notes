@@ -13,4 +13,10 @@ $k$-nearest neighbour classification takes the majority class of the $k$ nearest
 
 ### Distance weighting
 
-In $k$-NN, each of the $k$ neighbours is equally weighted. Distance weighting weights the closest more. For example with a Gaussian kernel, when weighting the neighbour $x_i$ compared to point $x$, $weight(x,x_i) \propto e^{-\left\|x - x_i\right\|^2}$. Now we can safely let $k \to \infty$.
+In $k$-NN, each of the $k$ neighbours is equally weighted. Distance weighting weights the closest more. For example with a Gaussian kernel, when weighting the neighbour $x_i$ compared to point $x$, $weight(x,x_i) \propto e^{-\left\|x - x_i\right\|^2}$. Now we can safely let $k \to \infty$, and still get a meaningful result.
+
+### Concerns
+
+k-nearest neighbour methods take all features into account. This can cause problems if there are many features: irrelevant features may dominate distance calculations. The training set will only cover a fraction of the instance space, which causes overfitting, and so the ‘curse of dimensionality’.
+
+How can we resolve these? Stretch/shrink dimensions if this improves the performance on a separate test set. Perform **feature selection** in a pre-processing step, discarding the unimportant features.
