@@ -26,3 +26,4 @@ These are my notes from the 2018 Symbols, Patterns and Signals course at the Uni
 1. [Clustering: *k*-means](B04-clustering-k-means.md)
 1. [Hierarchical Clustering](B05-hierarchical-clustering.md)
 1. [Gaussian Mixture Models](B06-gaussian-mixture-models.tex.md)
+1. [Evaluating classifiers](B07-evaluating-classifiers.md)
