@@ -23,6 +23,6 @@ These are my notes from the 2018 Symbols, Patterns and Signals course at the Uni
 1. [Classification](B01-classification.md)
 1. [Decision Trees](B02-decision-trees.md)
 1. [Nearest Neighbour](B03-nearest-neighbour.md)
-1. [Clustering: $k$-means](B04-clustering-k-means.md)
+1. [Clustering: *k*-means](B04-clustering-k-means.md)
 1. [Hierarchical Clustering](B05-hierarchical-clustering.md)
 1. [Gaussian Mixture Models](B06-gaussian-mixture-models.tex.md)
