@@ -1,0 +1,22 @@
+language: python
+python:
+  - "3.6"
+sudo: required
+
+install:
+  - sudo apt-get install texlive
+  - pip install readme2tex
+
+script: 
+  - ./texify
+after_sucess:
+  - mv .$TARGET_BRANCH.gitignore .gitignore
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  target-branch: $TARGET_BRANCH
+  on:
+    branch: $SOURCE_BRANCH
+
