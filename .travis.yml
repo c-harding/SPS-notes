@@ -3,12 +3,17 @@ python:
   - "3.6"
 sudo: required
 
+branches:
+  only:
+   - $SOURCE_BRANCH
+
 install:
   - sudo apt-get install texlive
   - pip install readme2tex
 
 script: 
   - ./texify
+  - ls
 after_sucess:
   - mv .$TARGET_BRANCH.gitignore .gitignore
 deploy:
