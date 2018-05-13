@@ -4,7 +4,7 @@
 
 These are my notes from the 2018 Symbols, Patterns and Signals course at the University of Bristol. Feel free to correct them with issues/pull requests.
 
-This repository uses [Travis CI](https://travis-ci.org/xsanda/SPS-notes) to build the LaTeX for GitHub, on the `master` branch. To edit the content, please use the `tex` branch, with `.tex.md` files, and the equations will be compiled into the master branch whenever you push.
+This repository uses [Travis CI](https://travis-ci.org/xsanda/SPS-notes) to build the LaTeX for GitHub, on the `master` branch. To edit the content, please use the `tex` branch, with `.tex.md` files, and the equations will be compiled into the master branch whenever you push. Note that this process takes a few minutes.
 
 ## Contents
 
