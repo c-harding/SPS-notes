@@ -9,6 +9,7 @@ install:
 
 script: 
   - ./texify
+  - ls
 after_sucess:
   - mv .$TARGET_BRANCH.gitignore .gitignore
 deploy:
