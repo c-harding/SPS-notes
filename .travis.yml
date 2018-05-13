@@ -3,7 +3,11 @@ python:
   - "3.6"
 sudo: required
 
-if: branch = $SOURCE_BRANCH
+before_install:
+  - |
+    if [ "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+      travis_terminate;
+    fi
 
 install:
   - sudo apt-get install texlive
@@ -11,8 +15,6 @@ install:
 
 script: 
   - ./texify
-  - ls
-after_sucess:
   - mv .$TARGET_BRANCH.gitignore .gitignore
 deploy:
   provider: pages
@@ -21,5 +23,4 @@ deploy:
   keep-history: true
   target-branch: $TARGET_BRANCH
   on:
-    branch: $SOURCE_BRANCH
-
+    all_branches: true
