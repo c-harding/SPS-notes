@@ -3,14 +3,18 @@ python:
   - "3.6"
 sudo: required
 
+before_install:
+  - |
+    if [ "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+      travis_terminate;
+    fi
+
 install:
   - sudo apt-get install texlive
   - pip install readme2tex
 
 script: 
   - ./texify
-  - ls
-after_sucess:
   - mv .$TARGET_BRANCH.gitignore .gitignore
 deploy:
   provider: pages
@@ -19,5 +23,4 @@ deploy:
   keep-history: true
   target-branch: $TARGET_BRANCH
   on:
-    branch: $SOURCE_BRANCH
-
+    all_branches: true
