@@ -3,6 +3,8 @@ python:
   - "3.6"
 sudo: required
 
+if: branch = $SOURCE_BRANCH
+
 install:
   - sudo apt-get install texlive
   - pip install readme2tex
