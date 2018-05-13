@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-find tex/* | grep -Fxvf <(grep -E "tex/\w+\.svg" -oh -r *.md --color=never | sort)
